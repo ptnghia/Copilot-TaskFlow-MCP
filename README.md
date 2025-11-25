@@ -419,4 +419,4 @@ If you find TaskFlow useful, please give it a star on [GitHub](https://github.co
 
 **TaskFlow MCP** - Making development workflow smarter, one task at a time.
 
-**Version:** 1.10.0 | **Author:** Pham Thanh Nghia | **License:** MIT
+**Version:** 1.10.0 | **Author:** Phan Trung Nghĩa | **License:** MIT

@@ -79,4 +79,4 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-**Version:** 1.10.0 | **Author:** Pham Thanh Nghia
+**Version:** 1.10.0 | **Author:** Phan Trung Nghĩa
