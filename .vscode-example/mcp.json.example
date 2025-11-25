@@ -1,0 +1,38 @@
+{
+  "servers": {
+    "taskflow": {
+      "command": "node",
+      "args": [
+        // Choose ONE of the following paths based on your installation:
+
+        // Option 1: Global installation (recommended)
+        // Linux/macOS:
+        "/usr/local/lib/node_modules/taskflow-mcp/dist/index.js"
+
+        // Windows:
+        // "C:\\Users\\YourUsername\\AppData\\Roaming\\npm\\node_modules\\taskflow-mcp\\dist\\index.js"
+
+        // Option 2: Local installation in project
+        // "${workspaceFolder}/node_modules/taskflow-mcp/dist/index.js"
+
+        // Option 3: Development (from cloned repository)
+        // "E:\\projects-php\\lifetechcms\\dist\\index.js"
+      ],
+      "env": {
+        // Required: Workspace root directory
+        "WORKSPACE_ROOT": "${workspaceFolder}"
+
+        // Optional: Enable all 54 tools (default: 40 core tools only)
+        // Uncomment the line below to enable 14 advanced tools:
+        // - Batch operations (batch-update-tasks)
+        // - Rebuild index (rebuild-index)
+        // - Git status (check-git-status)
+        // - Template CRUD (create-custom-template, delete-custom-template)
+        // - Detailed views (get-decision, get-lesson, get-lessons-context)
+        // - Utilities (find-related-tasks, aliases)
+        //
+        // "TASKFLOW_ENABLE_ADVANCED_TOOLS": "true"
+      }
+    }
+  }
+}
